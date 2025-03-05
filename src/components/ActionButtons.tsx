@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ConfirmationDialog from "./confirmation-dialog";
+import ConfirmationDialog from "./ConfirmationDialog";
 
 interface ActionButtonsProps {
     onRepair: () => void;

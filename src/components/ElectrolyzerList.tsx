@@ -1,6 +1,6 @@
 import React from "react";
-import Tag from "@components/tags";
-import SearchInput from "@components/search-input";
+import Tag from "@components/Tags";
+import SearchInput from "@components/SearchInput";
 
 interface Props {
     electrolyzers: number[];

@@ -1,9 +1,9 @@
 "use client";
 import React, { useEffect, useReducer, useState } from "react";
-import Navbar from "@components/navbar";
+import Navbar from "@components/Navbar";
 import ElectrolyzerList from "@components/ElectrolyzerList";
 import { checklist_items, electrolyzer_ids, element_ids, ElementProp } from "../data";
-import ElementTableSection from "@components/ElemetTableSelection";
+import ElementTableSection from "@components/ElementTableSection";
 
 interface PageState {
   selectedElectrolyzer: number | null;
